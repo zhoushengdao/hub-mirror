@@ -5,6 +5,8 @@ name: hub-mirror
 on:
   issues:
     types: [opened, edited]
+  issue_comment:
+    types: [created, edited]
 
 # 需要执行的任务列表
 jobs:
